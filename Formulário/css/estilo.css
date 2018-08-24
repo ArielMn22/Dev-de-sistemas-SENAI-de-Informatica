@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+/* Componentes */
+
+.btn {
+    padding: 10px 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 1px 1px #ccc;
+
+    transition: box-shadow .1s;
+}
+
+.btn:hover { /* Ocorre ao passar o cursor por cima do elemento */
+    box-shadow: 0px 4px 4px #ccc;
+}
+
+.btn:active { /* Ocorre ao clicar no elemento */
+    box-shadow: 0px 2px 2px #333;
+}
+
+.input-text {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+    /* width: 160px; */
+    width: 300px;
+
+    transition: width .1s;
+}
+
+/* .input-text:focus {
+    width: 300px;
+    border-color: purple;
+} */
+
+.bg-purple {
+    background-color: purple;
+    color: white;
+}
+
+.bg-green {
+    background-color: green;
+    color: white;
+}

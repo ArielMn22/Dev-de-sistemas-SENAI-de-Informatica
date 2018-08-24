@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- Tag de formulário (agrupa inputs) -->
+    <form action="#">
+        <label for="inputNome">Nome: </label>
+        <input id="inputNome" type="text" placeholder="Insira seu nome" name="Primeiro" required maxlength="30" minlength="1"> 
+        <br>
+
+        <label>Sobrenome:
+            <input class="input-cetner" type="text" placeholder="Insira seu sobrenome">
+        </label>
+        <br>
+
+        <label>E-mail:
+            <input type="email" placeholder="Insira seu e-mail">
+        </label>
+        <br>
+
+        <label>Senha:
+            <input type="password" placeholder="Insira sua senha.">            
+        </label>
+        <br>
+
+        <label>Você aceita os termos de contrato?
+            <input type="checkbox">
+        </label>
+        <br>
+
+        <label>
+            <input type="radio" name="genero" checked>
+            Feminino
+        </label>
+        <br>
+
+        <label>
+            <input type="radio" name="genero">
+            Masculino
+        </label>
+        <br>
+
+        <label>
+            Escreva aqui sua mensagem
+            <textarea></textarea>
+        </label>
+        <br>
+
+        <label>Mês de nascimento
+            <select>
+                <option>Janeiro</option>
+                <option>Fevereiro</option>
+                <option>Março</option>
+                <option>Abril</option>
+            </select>
+        </label>
+        <br>
+
+        <!-- Botões -->
+        <a class="btn bg-purple" href="https://github.com/ArielMn22" target="_blank">Link como botão</a>
+        <button class="btn bg-purple">Enviar dados</button>
+        <button class="btn bg-green">Enviar dados</button>
+    </form>
+</body>
+</html>

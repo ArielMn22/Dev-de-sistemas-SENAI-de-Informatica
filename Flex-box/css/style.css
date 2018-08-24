@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    width: 90%;
+    height: 200px;
+    background-color: blue;
+    margin: auto;
+
+    /* Propriedades Flex */
+    display: flex;
+    flex-direction: row; /* column, row, column-reverse, row-reverse */
+    flex-wrap: wrap; /*nowrap, wrap, wrap-reverse*/
+    justify-content: center;/* space-around, space-between, space-evenly, flex-start, flex-end, center */
+    align-items: center; /* center, stretch propriedade padrão */
+}
+
+.flex-item {
+    max-width: 200px;
+    height: 100px;
+    background-color: orange;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.pd {
+    padding-top: 20px;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}

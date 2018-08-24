@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Site Responsivo</title>
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <h1>Layout Responsivo</h1>
+            <i id="menuBotao" class="fas fa-bars"></i>
+        </div>
+
+        <nav id="menuTopo" class="menu">
+            <ul class="escondido">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Sobre</a>
+                </li>
+                <li>
+                    <a href="">Contato</a>
+                </li>
+                <li>
+                    <a href="">Ajuda</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Fim do menu nav -->
+    </header>
+
+    <main>
+        <div class="banner fullscreen">
+            <div class="banner-text">
+                <h2>Criação de sites responsivos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero, ducimus aperiam voluptas consectetur
+                    consequuntur dicta temporibus porro optio delectus. Accusantium fugiat quibusdam consequuntur, architecto
+                    iste cum ipsa ab voluptatibus?</p>
+            </div>
+        </div>
+        <!-- Fim da div banner -->
+
+        <section class="cont-principal">
+            <h2>Layouts dinâmicos</h2>
+
+            <div class="cont-principal-itens">
+                <article class="cont-principal-item">
+                    <h3>Mobile</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempore minus nam nemo</p>
+                </article>
+                <!-- Fim do article -->
+
+                <article class="cont-principal-item">
+                    <h3>Tablet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempore minus nam nemo</p>
+                </article>
+                <!-- Fim do article -->
+
+                <article class="cont-principal-item">
+                    <h3>Desktop</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempore minus nam nemo</p>
+                </article>
+                <!-- Fim do article -->
+            </div>
+        </section>
+
+        <section class="contact fullscreen">
+            <h2>Contato</h2>
+
+            <div class="contact-items">
+                <form action="">
+                    <input type="text" placeholder="Digite seu nome...">
+                    <input type="text" placeholder="Digite seu e-mail...">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua MSG..."></textarea>
+                    <input type="button" value="Enviar">
+                </form>
+            </div>
+            <!-- Fim da div contact-items -->
+        </section>
+    </main>
+
+    <script>
+        var botao = document.getElementById("menuBotao");
+        var menu = document.getElementById("menuTopo");
+
+        botao.onclick = function() {
+            menu.classList.toggle("escondido");
+        };
+    </script>
+</body>
+
+</html>
