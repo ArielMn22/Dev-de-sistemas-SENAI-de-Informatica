@@ -20,6 +20,15 @@
     color: #EFB4EF;
 }
 
+.fas, .fa-bars {
+    color: white;
+    font-size: 2em;
+}
+
+#contentMain.esconder {
+    display: none;
+}
+
 /* Estilizando Header */
 #contentHeader {
     height: 5.925925925925926vh;
@@ -432,4 +441,8 @@ span {
     .user_name h2 {
         font-size: 1em;
     }
+}
+
+@media screen and (max-width: 640px) {
+
 }

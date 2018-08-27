@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iam.dj - Become the greatest DJ in the world</title>
 </head>
@@ -29,10 +31,14 @@
         <div id="logout">
             <a href="#">logout</a>
         </div>
+
+        <!-- <div id="hamburguer"> -->
+        <i id="menuBotao" class="fas fa-bars"></i>
+        <!-- </div> -->
     </header>
 
     <main id="contentMain">
-        <section class="size-left-right-sections">
+        <section class="size-left-right-sections esconder">
             <header class="top">
                 <h2>my playlists</h2>
                 <img src="img/top-song-icon.png" alt="Ícone de música">
@@ -255,7 +261,7 @@
             </div>
         </section>
 
-        <section class="size-left-right-sections">
+        <section class="size-left-right-sections esconder">
             <header class="top">
                 <h2>following</h2>
             </header>
@@ -305,7 +311,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
     </main>
 
@@ -337,6 +342,16 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        var botao = document.getElementById("menuBotao");
+        var secao = document.getElementById("contentMain");
+
+        botao.onclick = function() {
+            secao.classList.toggle("esconder");
+        };
+
+    </script>
 </body>
 
 </html>
