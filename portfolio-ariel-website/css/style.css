@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+}
+
+.menu {
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 56px;
+    position: fixed;
+}
+
+.menu ul {
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 14px 28px;
+}
+
+.menu li:not(.redes-sociais) a:hover{
+    background-color: #2424BA;
+    transition: all 0.3s;
+}
+
+.redes-sociais {
+    display: flex;
+    flex: 1;
+    max-width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes-sociais-item {
+    height: 40px;
+    padding: 6px 23px;
+    width: 40px;
+}
+
+#banner {
+    height: 100vh;
+    background-image: url("../img/computer-coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+#MySkillsAndAboutMe {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px solid black;
+}
+
+#aboutMe {
+    flex: 1;
+    background-color: #2424BA;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+}
+
+#aboutMe p {
+    font-size: 1.4em;
+    color: white;
+}
+
+#mySkills {
+    flex: 1;
+    background-color: #141466;
+    border-left: 10px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Backgrounds */
+.pinterest {
+    background-image: url("../img/pinterest-icon.png");
+    background-repeat: no-repeat;
+}
+
+.github {
+    background-repeat: no-repeat;
+    background-image: url("../img/github-icon.png");
+}
+
+.linkedin {
+    background-repeat: no-repeat;
+    background-image: url("../img/linkedin-icon.png");
+}
+
+.branco {
+    color: white;
+}
+
+.preto {
+    color: black;
+}
+
+/* Tipografia */
+
+h1 {
+    font-size: 8em;
+    font-weight: 400;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+/* Margins e paddings */
+.ma-top-g {
+    margin-top: 40px;
+}
+
+.pa-all-g {
+    padding: 40px;
+}
