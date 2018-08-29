@@ -6,12 +6,29 @@
     font-family: 'Segoe UI';
 }
 
-.menu {
+.escondido {
+    display: none;
+}
+
+#menuBotao {
+    position: absolute;
+    z-index: 2;
+    display: none;
+    color: white;
+    font-size: 3em;
+}
+
+.top-bar {
     background-color:rgba(0, 0, 0, 0.5);
     width: 100%;
+    /* min-height: 56px; */
     height: 56px;
     position: fixed;
     z-index: 1;
+}
+
+#menuTopo {
+    height: 100%;
 }
 
 .menu ul {
@@ -229,7 +246,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 h3 {
@@ -321,4 +338,40 @@ span {
    100% {
    opacity: 1;
   }
-  }  
+  }
+
+  @media screen and (max-width: 910px) {
+    #menuBotao {
+        right: 0;
+        margin-top: 0.5em;
+        margin-right: 0.5em;
+    }
+    .top-bar {
+        height: auto;
+    }
+
+    #menuBotao {
+          display: unset;
+    }
+
+    .menu ul {
+          flex-direction: column;
+    }
+
+    .menu li {
+          margin-top: 32px;
+    }
+
+    /* banner */
+    h1 {
+        font-size: 4em;
+    }
+
+    #banner p {
+        font-size: 1.3em;
+    }
+
+    #MySkillsAndAboutMe {
+        flex-direction: column;
+    }
+  }
