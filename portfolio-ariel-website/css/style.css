@@ -11,6 +11,7 @@
     width: 100%;
     height: 56px;
     position: fixed;
+    z-index: 1;
 }
 
 .menu ul {
@@ -103,7 +104,7 @@
     justify-content: center;
 }
 
-.my-skills-item h3, span {
+.my-skills-item h3 {
     color: white;
     font-weight: 300;
 }
@@ -121,10 +122,50 @@
     width: 100px;
 }
 
-/* Backgrounds */
+#myExp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-exp-date {
+    width: 90%;
+    border-bottom: 1px solid black;
+
+    display: flex;
+}
+
+.my-exp-date li {
+    list-style-type: none;
+}
+
+.my-exp-date a:hover {
+    box-shadow: 5px 5px 4px #ccc;
+    transition: all 0.3s;
+}
+
+.blue-arrow {
+    background-image: url("../img/blue-arrow.png");
+    width: 171px;
+    height: 59px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Backgrounds e estilizacao de botoes */
 .pinterest {
     background-image: url("../img/pinterest-icon.png");
     background-repeat: no-repeat;
+}
+
+.pinterest-checkpoint {
+    background-image: url("../img/checkpoint.jpg");
+}
+
+.github-hardtest {
+    background-image: url("../img/hardtest.jpg");
 }
 
 .github {
@@ -145,6 +186,12 @@
     color: black;
 }
 
+.img-link {
+    padding: 86px 177px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
 /* Tipografia */
 
 h1 {
@@ -162,6 +209,11 @@ h3 {
     font-size: 1.75rem;
 }
 
+span {
+    font-size: 2em;
+    font-weight: 300;
+}
+
 /* Margins e paddings */
 .ma-top-g {
     margin-top: 40px;
@@ -173,6 +225,10 @@ h3 {
 
 .ma-top-p {
     margin-top: 10px;
+}
+
+.ma-bottom-m {
+    margin-bottom: 20px;
 }
 
 .pa-all-g {
