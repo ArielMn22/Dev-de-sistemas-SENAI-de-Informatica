@@ -122,7 +122,7 @@
     width: 100px;
 }
 
-#myExp {
+#stickerArea {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,10 +154,19 @@
     align-items: center;
 }
 
-#myStudies {
+.my-studies {
     background-image: url("../img/laptop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+} /* classe para estilizar a secao da 'minha formacao' */
+
+#contact {
+    background-color: #141466;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Backgrounds e estilizacao de botoes */
@@ -196,6 +205,18 @@
     padding: 86px 177px;
     margin-top: 20px;
     border-radius: 10px;
+}
+
+.bord-white {
+    border-color: white;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 500;
 }
 
 /* Tipografia */
@@ -272,20 +293,6 @@ span {
     background-color: #141466;
     color: white;
   }
-   
-  /* .progress-bar1 div span { Backup
-    position: absolute;
-    font-family: Arial;
-    font-size: 25px;
-    line-height: 75px;
-    height: 75px;
-    width: 75px;
-    left: 12.5px;
-    top: 12.5px;
-    text-align: center;
-    border-radius: 50%;
-    background-color: white;
-  } */
 
   .progress-bar1 .background { background-color: #b3cef6; }
    
