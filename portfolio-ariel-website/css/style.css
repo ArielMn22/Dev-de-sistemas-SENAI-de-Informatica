@@ -154,6 +154,12 @@
     align-items: center;
 }
 
+#myStudies {
+    background-image: url("../img/laptop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* Backgrounds e estilizacao de botoes */
 .pinterest {
     background-image: url("../img/pinterest-icon.png");
