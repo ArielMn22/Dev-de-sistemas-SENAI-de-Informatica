@@ -97,6 +97,30 @@
     align-items: center;
 }
 
+.my-skills-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.my-skills-item h3, span {
+    color: white;
+    font-weight: 300;
+}
+
+.my-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.my-justify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
 /* Backgrounds */
 .pinterest {
     background-image: url("../img/pinterest-icon.png");
@@ -134,9 +158,21 @@ h2 {
     font-weight: 300;
 }
 
+h3 {
+    font-size: 1.75rem;
+}
+
 /* Margins e paddings */
 .ma-top-g {
     margin-top: 40px;
+}
+
+.ma-top-m {
+    margin-top: 20px;
+}
+
+.ma-top-p {
+    margin-top: 10px;
 }
 
 .pa-all-g {
@@ -161,6 +197,22 @@ h2 {
    
   .progress-bar1 div span {
     position: absolute;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 75px;
+    height: 75px;
+    width: 75px;
+    left: 12.5px;
+    top: 12.5px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #141466;
+    color: white;
+  }
+   
+  /* .progress-bar1 div span { Backup
+    position: absolute;
     font-family: Arial;
     font-size: 25px;
     line-height: 75px;
@@ -171,8 +223,8 @@ h2 {
     text-align: center;
     border-radius: 50%;
     background-color: white;
-  }
-   
+  } */
+
   .progress-bar1 .background { background-color: #b3cef6; }
    
   .progress-bar1 .rotate {
