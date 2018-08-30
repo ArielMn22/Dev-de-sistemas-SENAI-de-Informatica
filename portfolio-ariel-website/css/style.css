@@ -148,7 +148,6 @@
 .my-exp-date {
     width: 90%;
     border-bottom: 1px solid black;
-
     display: flex;
 }
 
@@ -218,6 +217,10 @@
     color: black;
 }
 
+.img-link-space {
+    padding: 90px 0;
+}
+
 .img-link {
     padding: 86px 177px;
     margin-top: 20px;
@@ -237,6 +240,11 @@
 }
 
 /* Tipografia */
+
+.fa-bars {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
 
 h1 {
     font-size: 8em;
@@ -346,8 +354,10 @@ span {
         margin-top: 0.5em;
         margin-right: 0.5em;
     }
+
     .top-bar {
         height: auto;
+        background-color: rgba(0, 0, 0, 0.75 );
     }
 
     #menuBotao {
@@ -364,14 +374,47 @@ span {
 
     /* banner */
     h1 {
-        font-size: 4em;
+        font-size: 6em;
     }
 
     #banner p {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     #MySkillsAndAboutMe {
         flex-direction: column;
+        border: none;
+    }
+
+    #mySkills {
+        border: none;
+    }
+
+    .my-exp-date {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-exp-date li {
+        text-align: center;
+    }
+
+    .blue-arrow {
+        margin-top: 20px;
     }
   }
+
+@media screen and (max-width: 500px) {
+    /* banner */
+    h1 {
+        font-size: 3.5em;
+    }
+
+    #banner p {
+        font-size: 1.2em;
+    }
+
+    .img-link {
+        padding: 86px 105px;
+    }
+}
