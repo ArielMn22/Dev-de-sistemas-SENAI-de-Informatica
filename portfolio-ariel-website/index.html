@@ -13,20 +13,26 @@
 
 <body>
     <header class="top-bar">
-            <i id="menuBotao" class="fas fa-bars"></i>
-        <nav id="menuTopo" class="menu">
-            <ul class="escondido">
+        <i id="menuBotao" class="fas fa-bars"></i>
+        <nav id="menuTopo" class="menu escondido">
+            <ul>
                 <li>
-                    <a href="">Perfil</a>
+                    <a id="link-contact" href="#banner">Início</a>
                 </li>
                 <li>
-                    <a href="">Conhecimentos</a>
+                    <a href="#aboutMe">Perfil</a>
                 </li>
                 <li>
-                    <a href="">Projetos</a>
+                    <a href="#mySkills">Conhecimentos</a>
                 </li>
                 <li>
-                    <a href="">Contato</a>
+                    <a href="#myExp">Projetos</a>
+                </li>
+                <li>
+                    <a href="#myStudies">Formação</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
                 </li>
 
                 <li class="redes-sociais">
@@ -125,7 +131,7 @@
         </div>
 
         <section id="stickerArea" class="pa-all-g">
-            <h2>Projetos em que participei</h2>
+            <h2 id="myExp">Projetos em que participei</h2>
 
             <div class="my-exp-date">
                 <div class="blue-arrow branco">
@@ -160,7 +166,7 @@
         <!-- Fim da section My Experience -->
 
         <section id="stickerArea" class="my-studies pa-all-g branco">
-            <h2>Minha Formação</h2>
+            <h2 id="myStudies">Minha Formação</h2>
 
             <div class="my-exp-date bord-white">
                 <div class="blue-arrow branco">
@@ -209,6 +215,68 @@
         botao.onclick = function () {
             menu.classList.toggle("escondido");
         };
+
+        // Smooth Scrolling
+
+        // Select all links with hashes
+        $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function (event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    &&
+                    location.hostname == this.hostname
+                ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000, function () {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
+
+
+        // Glow on click
+
+        var secao_contact = document.getElementById("contact");
+        var link_contact = document.getElementById("link-contact");
+
+        link_contact.onclick = function() {
+
+        }
+
+        // Change header color
+
+        $(function () {
+            $(window).on("scroll", function () {
+                if ($(window).scrollTop() > 500) {
+                    $(".top-bar").addClass("bg-black");
+                } else {
+                    //remove the background property so it comes transparent again (defined in your css)
+                    $(".top-bar").removeClass("bg-black");
+                }
+            });
+        });
     </script>
 </body>
 
