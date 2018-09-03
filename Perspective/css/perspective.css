@@ -1,0 +1,113 @@
+#content {
+    text-align: center;
+}
+.ex1 {
+    perspective: 800px;
+}
+
+ .ex1:not(:hover) {
+    perspective: 800px;
+    transition: all 2000ms;
+}
+
+.ex1:hover {
+    perspective: 150px;
+    transition: all 2000ms;
+}
+
+.ex2 {
+    perspective: 150px;
+}
+
+ .ex2:not(:hover) {
+    perspective: 150px;
+    transition: all 2000ms;
+}
+
+.ex2:hover {
+    perspective: 800px;
+    transition: all 2000ms;
+}
+
+.cube {
+    font-size: 4em;
+    width: 2em;
+    margin: 1.5em auto;
+    transform-style: preserve-3d;
+    transform: rotateX(-45deg) rotateY(30deg);
+}
+
+.side {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background: black;
+    /*rgba(100,100,100,0.5);*/
+    border: 1px solid red;
+    text-align: center;
+    line-height: 2em;
+}
+
+.front {
+    transform: translateZ(1em);
+}
+
+.top {
+    transform: rotateX(90deg) translateZ(1em);
+}
+
+.right {
+    transform: rotateY(90deg) translateZ(1em);
+}
+
+.left {
+    transform: rotateY(-90deg) translateZ(1em);
+}
+
+.bottom {
+    transform: rotateX(-90deg) translateZ(1em);
+}
+
+.back {
+    transform: rotateY(-180deg) translateZ(1em);
+}
+
+.btn {
+    display: flex;
+    width: 600px;
+
+    margin: 0 auto;
+    perspective: 500px;
+}
+
+.text {
+    height: 200px;
+    width: 500px;
+    background-color: black;
+
+    text-align: center;
+    line-height: 200px;
+    font-size: 48px;
+    color: white;
+    z-index: 1;
+}
+
+.flip {
+    height: 180px;
+    width: 150px;
+    background-color: red;
+    border: 10px solid black;
+    border-left: none;
+
+    text-align: center;
+    font-size: 48px;
+    line-height: 180px;
+
+    transform: rotateY(90deg);
+    transform-origin: left;
+    transition: transform 4000ms;
+}
+
+.btn:hover .flip {
+    transform: rotateY(0deg);
+}
