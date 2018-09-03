@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
@@ -8,25 +8,31 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Ariel Paixão dos Santos - Portfólio</title>
+    <title>Ariel Paixão dos Santos - Web Designer</title>
 </head>
 
 <body>
     <header class="top-bar">
-            <i id="menuBotao" class="fas fa-bars"></i>
-        <nav id="menuTopo" class="menu">
-            <ul class="escondido">
+        <i id="menuBotao" class="fas fa-bars"></i>
+        <nav id="menuTopo" class="menu escondido">
+            <ul>
                 <li>
-                    <a href="">Perfil</a>
+                    <a id="link-contact" href="#banner">Início</a>
                 </li>
                 <li>
-                    <a href="">Conhecimentos</a>
+                    <a href="#aboutMe">Perfil</a>
                 </li>
                 <li>
-                    <a href="">Projetos</a>
+                    <a href="#mySkills">Conhecimentos</a>
                 </li>
                 <li>
-                    <a href="">Contato</a>
+                    <a href="#myExp">Projetos</a>
+                </li>
+                <li>
+                    <a href="#myStudies">Formação</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
                 </li>
 
                 <li class="redes-sociais">
@@ -53,10 +59,7 @@
                 </div>
 
                 <!-- <h2>Descrição Pessoal</h2> -->
-                <p class="ma-top-g">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam soluta similique autem et adipisci, ratione
-                    totam dolores. Quis nulla doloremque ex tempora voluptatibus inventore optio, porro similique eius, delectus
-                    impedit.
-                </p>
+                <p class="ma-top-g">Meu nome é Ariel Paixão dos Santos, sou brasileiro, tenho 16 anos e atualmente estou cursando o Curso Técnico de Desenvolvimento de Sistemas no SENAI de Informática, utilizando metodologia Scrum em meus projetos.</p>
             </section>
             <!-- Fim da section aboutMe -->
 
@@ -124,8 +127,8 @@
             <!-- Fim da section Skills -->
         </div>
 
-        <section id="stickerArea" class="pa-all-g">
-            <h2>Projetos em que participei</h2>
+        <section class="sticker-area pa-all-g">
+            <h2 id="myExp">Projetos em que participei</h2>
 
             <div class="my-exp-date">
                 <div class="blue-arrow branco">
@@ -159,10 +162,25 @@
         </section>
         <!-- Fim da section My Experience -->
 
-        <section id="stickerArea" class="my-studies pa-all-g branco">
-            <h2>Minha Formação</h2>
+        <section class="sticker-area my-studies pa-all-g branco">
+            <h2 id="myStudies">Minha Formação</h2>
 
             <div class="my-exp-date bord-white">
+                <div class="blue-arrow branco">
+                    <span>2016</span>
+                </div>
+
+                <ol class="pa-all-g">
+                    <li>
+                        <h3>Basic - CNA</h3>
+                    </li>
+                    <li>
+                        <h3>Intermediate - CNA</h3>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="my-exp-date bord-white ma-top-g">
                 <div class="blue-arrow branco">
                     <span>2017</span>
                 </div>
@@ -170,9 +188,12 @@
                 <ol class="pa-all-g">
                     <li>
                         <h3>Curso de Aprendizagem Industrial em Assistente Técnico em TI - SENAI de Informática</h3>
-                        <!-- <div class="img-link">
-                                <a class="img-link github-hardtest" href="https://br.pinterest.com/pin/640848221952799803/" target="_blank"></a>
-                            </div> -->
+                    </li>
+                    <li>
+                        <h3>Pre-Advanced - CNA</h3>
+                    </li>
+                    <li>
+                        <h3>Edição de Imagem - Escola SAGA</h3>
                     </li>
                 </ol>
             </div>
@@ -184,7 +205,13 @@
 
                 <ol class="pa-all-g">
                     <li>
-                        <h3>Técnico em Deselvolvimento de Sistemas - SENAI de Informática</h3>
+                        <h3>Técnico em Deselvolvimento de Sistemas - SENAI de Informática (Cursando)</h3>
+                    </li>
+                    <li>
+                        <h3>Master - CNA (Cursando)</h3>
+                    </li>
+                    <li>
+                        <h3>Advanced - CNA</h3>
                     </li>
                 </ol>
             </div>
@@ -194,7 +221,8 @@
         <section id="contact" class="pa-all-g branco">
             <h2 class="ma-bottom-m">Contato</h2>
             <h3 class="italic ma-bottom-m">Ariel Paixão dos Santos</h3>
-            <h4 class="bold italic ma-bottom-m">arielpaixao10@gmail.com</h4>
+            <!-- <h4 class="bold italic ma-bottom-m">arielpaixao10@gmail.com</h4> -->
+            <a class="italic bold ma-bottom-m e-mail" href="mailto:arielpaixao10@gmail.com">arielpaixao10@gmail.com</a>
         </section>
     </main>
 
@@ -209,6 +237,68 @@
         botao.onclick = function () {
             menu.classList.toggle("escondido");
         };
+
+        // Smooth Scrolling
+
+        // Select all links with hashes
+        $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function (event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    &&
+                    location.hostname == this.hostname
+                ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000, function () {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
+
+
+        // Glow on click
+
+        var secao_contact = document.getElementById("contact");
+        var link_contact = document.getElementById("link-contact");
+
+        link_contact.onclick = function() {
+
+        }
+
+        // Change header color
+
+        $(function () {
+            $(window).on("scroll", function () {
+                if ($(window).scrollTop() > 500) {
+                    $(".top-bar").addClass("bg-black");
+                } else {
+                    //remove the background property so it comes transparent again (defined in your css)
+                    $(".top-bar").removeClass("bg-black");
+                }
+            });
+        });
     </script>
 </body>
 
