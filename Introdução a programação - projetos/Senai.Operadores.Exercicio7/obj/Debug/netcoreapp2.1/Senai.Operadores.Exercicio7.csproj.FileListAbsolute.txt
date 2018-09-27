@@ -1,0 +1,11 @@
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\bin\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.deps.json
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\bin\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.runtimeconfig.json
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\bin\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.runtimeconfig.dev.json
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\bin\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.dll
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\bin\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.pdb
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\obj\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.csprojAssemblyReference.cache
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\obj\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.csproj.CoreCompileInputs.cache
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\obj\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.AssemblyInfoInputs.cache
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\obj\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.AssemblyInfo.cs
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\obj\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.dll
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Operadores.Exercicio7\obj\Debug\netcoreapp2.1\Senai.Operadores.Exercicio7.pdb
