@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aryel\\.nuget\\packages\\": {},
+    "C:\\Users\\33747821839\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\aryel\\git-repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.Operadores.Exercicio7\\Senai.Operadores.Exercicio7.csproj",
+      "projectUniqueName": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.Operadores.Exercicio7\\Senai.Operadores.Exercicio7.csproj",
       "projectName": "Senai.Operadores.Exercicio7",
-      "projectPath": "c:\\Users\\aryel\\git-repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.Operadores.Exercicio7\\Senai.Operadores.Exercicio7.csproj",
-      "packagesPath": "C:\\Users\\aryel\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\aryel\\git-repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.Operadores.Exercicio7\\obj\\",
+      "projectPath": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.Operadores.Exercicio7\\Senai.Operadores.Exercicio7.csproj",
+      "packagesPath": "C:\\Users\\33747821839\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.Operadores.Exercicio7\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aryel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\33747821839\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

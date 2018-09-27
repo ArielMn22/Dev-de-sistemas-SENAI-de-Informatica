@@ -1,0 +1,11 @@
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\bin\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.deps.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\bin\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.runtimeconfig.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\bin\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.runtimeconfig.dev.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\bin\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.dll
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\bin\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.pdb
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\obj\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.csprojAssemblyReference.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\obj\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.csproj.CoreCompileInputs.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\obj\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.AssemblyInfoInputs.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\obj\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.AssemblyInfo.cs
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\obj\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.dll
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.Variaveis.Exercicio1\obj\Debug\netcoreapp2.1\Senai.Variaveis.Exercicio1.pdb
