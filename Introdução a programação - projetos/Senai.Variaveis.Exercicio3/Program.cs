@@ -9,7 +9,7 @@ namespace Senai.Variaveis.Exercicio3
             byte i = 0;
             float[] numeros; //Para se declarar um vetor, basta colocar o <tipo>[], e os colchetes;
             
-            numeros = new float[3];
+            numeros = new float[3];            
 
             Console.Clear();
             for(i=0; i<2; i++)
