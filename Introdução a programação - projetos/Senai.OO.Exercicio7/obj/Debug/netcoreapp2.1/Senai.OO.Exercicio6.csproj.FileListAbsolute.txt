@@ -1,0 +1,11 @@
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\obj\Debug\netcoreapp2.1\Senai.OO.Exercicio6.csprojAssemblyReference.cache
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\obj\Debug\netcoreapp2.1\Senai.OO.Exercicio6.csproj.CoreCompileInputs.cache
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\obj\Debug\netcoreapp2.1\Senai.OO.Exercicio6.AssemblyInfoInputs.cache
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\obj\Debug\netcoreapp2.1\Senai.OO.Exercicio6.AssemblyInfo.cs
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\bin\Debug\netcoreapp2.1\Senai.OO.Exercicio6.deps.json
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\bin\Debug\netcoreapp2.1\Senai.OO.Exercicio6.runtimeconfig.json
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\bin\Debug\netcoreapp2.1\Senai.OO.Exercicio6.runtimeconfig.dev.json
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\bin\Debug\netcoreapp2.1\Senai.OO.Exercicio6.dll
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\bin\Debug\netcoreapp2.1\Senai.OO.Exercicio6.pdb
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\obj\Debug\netcoreapp2.1\Senai.OO.Exercicio6.dll
+C:\Users\aryel\git-repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Senai.OO.Exercicio7\obj\Debug\netcoreapp2.1\Senai.OO.Exercicio6.pdb
