@@ -1,0 +1,22 @@
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\bin\Debug\netcoreapp2.1\Calculo.Prestacao.deps.json
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\bin\Debug\netcoreapp2.1\Calculo.Prestacao.runtimeconfig.json
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\bin\Debug\netcoreapp2.1\Calculo.Prestacao.runtimeconfig.dev.json
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\bin\Debug\netcoreapp2.1\Calculo.Prestacao.dll
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\bin\Debug\netcoreapp2.1\Calculo.Prestacao.pdb
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.csprojAssemblyReference.cache
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.csproj.CoreCompileInputs.cache
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.AssemblyInfoInputs.cache
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.AssemblyInfo.cs
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.dll
+C:\Users\51755101856\Desktop\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.pdb
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\bin\Debug\netcoreapp2.1\Calculo.Prestacao.deps.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\bin\Debug\netcoreapp2.1\Calculo.Prestacao.runtimeconfig.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\bin\Debug\netcoreapp2.1\Calculo.Prestacao.runtimeconfig.dev.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\bin\Debug\netcoreapp2.1\Calculo.Prestacao.dll
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\bin\Debug\netcoreapp2.1\Calculo.Prestacao.pdb
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.csprojAssemblyReference.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.csproj.CoreCompileInputs.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.AssemblyInfoInputs.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.AssemblyInfo.cs
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.dll
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\cond dojo prestação\Calculo.Prestacao\obj\Debug\netcoreapp2.1\Calculo.Prestacao.pdb
