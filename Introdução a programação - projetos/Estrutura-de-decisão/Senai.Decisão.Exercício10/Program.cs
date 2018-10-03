@@ -16,7 +16,7 @@ namespace Senai.Decisão.Exercícios10 {
                 System.Console.WriteLine ("\nInsira a quantidade de lados da figura regular:");
                 medida = float.Parse (Console.ReadLine ());
 
-                area = (float) (Math.Sqrt (3) / 4 * Math.Pow (medida, 2));
+                area = (float) ((Math.Pow(medida, 2) * Math.Sqrt(3))/4);
 
                 System.Console.WriteLine ($"\nA figura é um triângulo:\nÁrea: {area.ToString("n2")}cm²");
             } else if (lados == 4) { //QUADRADO
