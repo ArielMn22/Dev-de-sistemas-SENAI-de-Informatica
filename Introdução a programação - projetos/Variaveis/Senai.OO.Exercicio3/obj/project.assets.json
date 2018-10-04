@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.OO.Exercicio3\\Senai.OO.Exercicio3.csproj",
+      "projectUniqueName": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Variaveis\\Senai.OO.Exercicio3\\Senai.OO.Exercicio3.csproj",
       "projectName": "Senai.OO.Exercicio3",
-      "projectPath": "C:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.OO.Exercicio3\\Senai.OO.Exercicio3.csproj",
+      "projectPath": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Variaveis\\Senai.OO.Exercicio3\\Senai.OO.Exercicio3.csproj",
       "packagesPath": "C:\\Users\\33747821839\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.OO.Exercicio3\\obj\\",
+      "outputPath": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Variaveis\\Senai.OO.Exercicio3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

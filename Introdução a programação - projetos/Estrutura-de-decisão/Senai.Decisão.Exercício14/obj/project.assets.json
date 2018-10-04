@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aryel\\.nuget\\packages\\": {},
+    "C:\\Users\\33747821839\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aryel\\git-repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Estrutura-de-decisão\\Senai.Decisão.Exercício14\\Senai.Decisão.Exercício14.csproj",
+      "projectUniqueName": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Estrutura-de-decisão\\Senai.Decisão.Exercício14\\Senai.Decisão.Exercício14.csproj",
       "projectName": "Senai.Decisão.Exercício14",
-      "projectPath": "C:\\Users\\aryel\\git-repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Estrutura-de-decisão\\Senai.Decisão.Exercício14\\Senai.Decisão.Exercício14.csproj",
-      "packagesPath": "C:\\Users\\aryel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aryel\\git-repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Estrutura-de-decisão\\Senai.Decisão.Exercício14\\obj\\",
+      "projectPath": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Estrutura-de-decisão\\Senai.Decisão.Exercício14\\Senai.Decisão.Exercício14.csproj",
+      "packagesPath": "C:\\Users\\33747821839\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Estrutura-de-decisão\\Senai.Decisão.Exercício14\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aryel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\33747821839\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

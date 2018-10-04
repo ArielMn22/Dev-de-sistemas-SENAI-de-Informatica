@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.Examplo.Variaveis\\Senai.Examplo.Variaveis.csproj",
+      "projectUniqueName": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Variaveis\\Senai.Examplo.Variaveis\\Senai.Examplo.Variaveis.csproj",
       "projectName": "Senai.Examplo.Variaveis",
-      "projectPath": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.Examplo.Variaveis\\Senai.Examplo.Variaveis.csproj",
+      "projectPath": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Variaveis\\Senai.Examplo.Variaveis\\Senai.Examplo.Variaveis.csproj",
       "packagesPath": "C:\\Users\\33747821839\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Senai.Examplo.Variaveis\\obj\\",
+      "outputPath": "c:\\Users\\33747821839\\Documents\\Git-Repositories\\dev-de-sistemas-senai-de-informatica\\Introdução a programação - projetos\\Variaveis\\Senai.Examplo.Variaveis\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
