@@ -9,7 +9,11 @@
                 "build",
                 "${workspaceFolder}/Senai.Metodos.Exemplo1/Senai.Metodos.Exemplo1.csproj"
             ],
-            "problemMatcher": "$msCompile"
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

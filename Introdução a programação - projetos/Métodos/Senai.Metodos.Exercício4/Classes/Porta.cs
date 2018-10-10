@@ -5,7 +5,7 @@ namespace Senai.Metodos.Exercício4.Classes
     /// </summary>
     public class Porta
     {
-        public bool Status {get; set;}
+        public bool Status {get; set;} = false;
 
         #region Metodos
         public void Abrir()
