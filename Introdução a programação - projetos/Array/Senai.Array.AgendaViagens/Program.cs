@@ -7,6 +7,14 @@ namespace Senai.Array.AgendaViagens {
             Viagem[] viagens = new Viagem[5];
             int i = 0, j = 0; //contadores
 
+            //Alocando
+            while (i < 5) {
+                viagens[i] = new Viagem (); // Alocando no Heap;
+                i++;
+            }
+
+            i = 0; //Resetando contador;
+
             do {
                 Console.Clear ();
 
@@ -22,22 +30,14 @@ namespace Senai.Array.AgendaViagens {
                 switch (choice) {
                     case "1":
                         {
-                            // viagens[i].Agendar();
-                            System.Console.WriteLine ("Insira seu nome:");
-                            viagens[i].NomePassageiro = Console.ReadLine ();
-
-                            System.Console.WriteLine ("\nInsira o número do vôo:");
-                            viagens[i].NumeroVoo = int.Parse (Console.ReadLine ());
-
-                            System.Console.WriteLine ("\nInsira a data do vôo:");
-                            viagens[i].DataVoo = DateTime.Parse (Console.ReadLine ());
+                            viagens[i].Agendar ();
                             break;
                         }
 
                     case "2":
                         {
                             while (j < 5) {
-                                System.Console.WriteLine ($"Viagem {j}: {viagens[j].Exibir()}");
+                                System.Console.WriteLine ($"Viagem {j+1}: {viagens[j].Exibir()}");
                                 j++;
                             }
                             j = 0;
@@ -54,6 +54,9 @@ namespace Senai.Array.AgendaViagens {
                 Console.ReadKey ();
                 i++;
             } while (i < 5);
+
+            System.Console.WriteLine("Número limite de cadastro de viagens atingido!");
+            console.ReadKey();
         }
     }
 }
