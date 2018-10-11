@@ -1,0 +1,11 @@
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\bin\Debug\netcoreapp2.1\Senai.Matriz.Bingo.deps.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\bin\Debug\netcoreapp2.1\Senai.Matriz.Bingo.runtimeconfig.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\bin\Debug\netcoreapp2.1\Senai.Matriz.Bingo.runtimeconfig.dev.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\bin\Debug\netcoreapp2.1\Senai.Matriz.Bingo.dll
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\bin\Debug\netcoreapp2.1\Senai.Matriz.Bingo.pdb
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\obj\Debug\netcoreapp2.1\Senai.Matriz.Bingo.csprojAssemblyReference.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\obj\Debug\netcoreapp2.1\Senai.Matriz.Bingo.csproj.CoreCompileInputs.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\obj\Debug\netcoreapp2.1\Senai.Matriz.Bingo.AssemblyInfoInputs.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\obj\Debug\netcoreapp2.1\Senai.Matriz.Bingo.AssemblyInfo.cs
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\obj\Debug\netcoreapp2.1\Senai.Matriz.Bingo.dll
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Introdução a programação - projetos\Matriz\Senai.Matriz.Bingo\obj\Debug\netcoreapp2.1\Senai.Matriz.Bingo.pdb
