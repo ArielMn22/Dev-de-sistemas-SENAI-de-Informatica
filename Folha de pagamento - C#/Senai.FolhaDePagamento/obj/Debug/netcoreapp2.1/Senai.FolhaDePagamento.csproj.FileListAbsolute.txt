@@ -1,0 +1,11 @@
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\obj\Debug\netcoreapp2.1\Senai.FolhaDePagamento.csprojAssemblyReference.cache
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\obj\Debug\netcoreapp2.1\Senai.FolhaDePagamento.csproj.CoreCompileInputs.cache
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\obj\Debug\netcoreapp2.1\Senai.FolhaDePagamento.AssemblyInfoInputs.cache
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\obj\Debug\netcoreapp2.1\Senai.FolhaDePagamento.AssemblyInfo.cs
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\bin\Debug\netcoreapp2.1\Senai.FolhaDePagamento.deps.json
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\bin\Debug\netcoreapp2.1\Senai.FolhaDePagamento.runtimeconfig.json
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\bin\Debug\netcoreapp2.1\Senai.FolhaDePagamento.runtimeconfig.dev.json
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\bin\Debug\netcoreapp2.1\Senai.FolhaDePagamento.dll
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\bin\Debug\netcoreapp2.1\Senai.FolhaDePagamento.pdb
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\obj\Debug\netcoreapp2.1\Senai.FolhaDePagamento.dll
+C:\Users\33747821839\Desktop\dev-de-sistemas-senai-de-informatica\Folha de pagamento - C#\Senai.FolhaDePagamento\obj\Debug\netcoreapp2.1\Senai.FolhaDePagamento.pdb
