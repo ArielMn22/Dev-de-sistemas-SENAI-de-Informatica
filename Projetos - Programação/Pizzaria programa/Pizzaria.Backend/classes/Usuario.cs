@@ -9,5 +9,9 @@ namespace Pizzaria.Backend.classes
         public string Email;
         public string Senha;
         public DateTime DataCriacao;
+        /// <summary>
+        /// Terá o valor do ID do usuário que está logado
+        /// </summary>
+        public int LoggedId;
     }
 }

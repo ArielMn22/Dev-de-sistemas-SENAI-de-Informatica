@@ -22,7 +22,7 @@ namespace Pizzaria.Backend.classes {
         #endregion
 
         #region Verificação para login
-        static bool logado = false;
+        // static bool logado = false;
         public bool Login (Usuario[] usuario, string email, string senha) {
             foreach (Usuario item in usuario) {
                 if (item == null) {

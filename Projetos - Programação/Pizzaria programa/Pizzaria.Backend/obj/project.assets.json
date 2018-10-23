@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\51755101856\\.nuget\\packages\\": {},
+    "C:\\Users\\aryel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\51755101856\\Desktop\\Pizzaria programa\\Pizzaria.Backend\\Pizzaria.Backend.csproj",
+      "projectUniqueName": "d:\\Windows Libraries\\Área de Trabalho\\dev-de-sistemas-senai-de-informatica\\Projetos - Programação\\Pizzaria programa\\Pizzaria.Backend\\Pizzaria.Backend.csproj",
       "projectName": "Pizzaria.Backend",
-      "projectPath": "C:\\Users\\51755101856\\Desktop\\Pizzaria programa\\Pizzaria.Backend\\Pizzaria.Backend.csproj",
-      "packagesPath": "C:\\Users\\51755101856\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\51755101856\\Desktop\\Pizzaria programa\\Pizzaria.Backend\\obj\\",
+      "projectPath": "d:\\Windows Libraries\\Área de Trabalho\\dev-de-sistemas-senai-de-informatica\\Projetos - Programação\\Pizzaria programa\\Pizzaria.Backend\\Pizzaria.Backend.csproj",
+      "packagesPath": "C:\\Users\\aryel\\.nuget\\packages\\",
+      "outputPath": "d:\\Windows Libraries\\Área de Trabalho\\dev-de-sistemas-senai-de-informatica\\Projetos - Programação\\Pizzaria programa\\Pizzaria.Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\51755101856\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aryel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -3,16 +3,18 @@ using Pizzaria.Backend.classes;
 
 namespace Pizzaria.Backend {
     class Program {
-        static Usuario[] usuario = new Usuario[500];
-        static Produtos[] produto = new Produtos[300];
-        static UsuarioControl MetodoUser = new UsuarioControl ();
+        static Usuario[] usuario = new Usuario[500]; // Declarando Array;
+        static Produtos[] produto = new Produtos[300]; // Declarando Array;
+        static UsuarioControl MetodoUser = new UsuarioControl (); //Declarando e Instanciando Objeto;
         static string opcao;
-        static int cUser = 0; // Contador da quanditade de usuarios cadastrados
-        static int cProd = 0;
+        static int cUser = 0; // Contador da quantidade de usuarios cadastrados
+        static int cProd = 0; // Contador da quantidade de produtos cadastrados
         static void Main (string[] args) {
             do {
                 MenuInicio ();
+                System.Console.Write ("Insira uma opção: ");
                 opcao = Console.ReadLine ();
+
                 switch (opcao) {
                     case "1":
                         {
@@ -27,25 +29,48 @@ namespace Pizzaria.Backend {
                             if (MetodoUser.Login (usuario, loginEmail, loginSenha) == true) {
                                 do {
                                     MenuPizza ();
+                                    System.Console.Write ("Insira uma opção: ");
                                     opcao = Console.ReadLine ();
+
                                     switch (opcao) {
                                         case "1":
                                             {
                                                 CadastroProduto ();
+                                                Pausa ();
+
                                                 break;
                                             }
                                         case "2":
                                             {
+                                                ListandoProd ();
+                                                Pausa ();
+
                                                 break;
                                             }
                                         case "3":
                                             {
+                                                ExibirPrecoTotal ();
+                                                Pausa ();
+
+                                                break;
+                                            }
+                                        case "0":
+                                            {
+                                                //Sai do loop
+                                                break;
+                                            }
+                                        default:
+                                            {
+                                                System.Console.WriteLine ("Insira uma opção válida!");
+                                                Pausa ();
+
                                                 break;
                                             }
                                     }
-                                } while (true);
+                                } while (opcao != "0");
+                                opcao = null;
                             } else {
-                                System.Console.WriteLine ("E-mail ou senha incorreto");
+                                System.Console.WriteLine ("E-mail ou senha incorreto.");
                             }
 
                             break;
@@ -53,23 +78,31 @@ namespace Pizzaria.Backend {
 
                     case "3":
                         {
-                            ListandoUser();
+                            ListandoUser ();
                             break;
                         }
 
+                    case "0":
+                        {
+                            // Sai do programa
+                            break;
+                        }
                     default:
                         {
                             System.Console.WriteLine ("##### Opção invalida #####");
                             break;
                         }
                 }
-
+                Pausa ();
             } while (opcao != "0");
         }
 
         #region Menu de opções inicial
         static void MenuInicio () {
+            Console.Clear ();
+
             System.Console.WriteLine (@"
+                   Gerenciador de Usuários
                 ---------------------------
                 1 - Cadastrar novo usuario
                 2 - Logar
@@ -96,7 +129,7 @@ namespace Pizzaria.Backend {
             usuario[cUser].Id = cUser + 1;
             Console.Clear ();
             System.Console.WriteLine ("Cadastro feito sucesso!");
-            
+
             cUser++;
         }
         #endregion
@@ -157,7 +190,7 @@ namespace Pizzaria.Backend {
                 if (item == null) {
                     break;
                 } else {
-                    System.Console.WriteLine ($"Id: {item.Id}\n Nome: {item.Nome}\n Email: {item.Email}\n Data criada: {item.DataCriacao}");
+                    System.Console.WriteLine ($"Id: {item.Id}\nNome: {item.Nome}\nEmail: {item.Email}\nData criada: {item.DataCriacao}");
                 }
             }
         }
@@ -165,11 +198,16 @@ namespace Pizzaria.Backend {
 
         #region Menu de pizza
         static void MenuPizza () {
-            System.Console.WriteLine (@"
+            Console.Clear ();
+
+            System.Console.WriteLine ($@"
+                     Pizzaria
+            ----------------------------
             1 - Cadastrar produto
             2 - Listar todos os produtos
             3 - Valor total dos produtos
-            0 - sair");
+            0 - sair
+            ----------------------------");
         }
         #endregion
 
@@ -184,7 +222,7 @@ namespace Pizzaria.Backend {
             produto[cProd].Descricao = Console.ReadLine ();
 
             System.Console.WriteLine ("Informe o preço do produto:");
-            produto[cProd].Preco = int.Parse (Console.ReadLine ());
+            produto[cProd].Preco = double.Parse (Console.ReadLine ());
 
             System.Console.WriteLine ("Informe a categoria do produto:");
             System.Console.WriteLine ("1 - Pizza");
@@ -197,7 +235,7 @@ namespace Pizzaria.Backend {
                 if (categoria == "1") produto[cProd].Categoria = "Pizza";
                 else if (categoria == "2") produto[cProd].Categoria = "Bebida";
                 else System.Console.WriteLine ("Opção inválida...");
-            } while (categoria != "1" || categoria != "2");
+            } while (categoria != "1" && categoria != "2");
 
             produto[cProd].Id = cProd + 1;
             cProd++;
@@ -213,7 +251,8 @@ namespace Pizzaria.Backend {
                 if (item == null) {
                     break;
                 } else {
-                    System.Console.WriteLine ($"Id: {item.Id}\n Nome: {item.Nome}\n Descrição: {item.Descricao}\nPreço: {item.Preco}\nCategoria: {item.Categoria}\nData criada: {item.DataCriacao}");
+                    System.Console.WriteLine("------------------------------------------");
+                    System.Console.WriteLine ($"\nId: {item.Id}\nNome: {item.Nome}\nDescrição: {item.Descricao}\nPreço: {item.Preco}\nCategoria: {item.Categoria}\nData criada: {item.DataCriacao}");
                 }
             }
         }
@@ -223,15 +262,21 @@ namespace Pizzaria.Backend {
         static void ExibirPrecoTotal () {
             double soma = 0;
             foreach (Produtos item in produto) {
-                if (item == null)
-                {
+                if (item == null) {
                     break;
                 } else {
                     soma += item.Preco;
                 }
             }
 
-            System.Console.WriteLine($"Preço total dos produtos cadastrados: {soma.ToString("C")}");
+            System.Console.WriteLine ($"Preço total dos produtos cadastrados: {soma.ToString("C")}");
+        }
+        #endregion
+
+        #region Pausa
+        static void Pausa () {
+            System.Console.WriteLine ("Aperte [QUALQUER] tecla para continuar...");
+            Console.ReadKey ();
         }
         #endregion
     }
