@@ -1,0 +1,11 @@
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\bin\Debug\netcoreapp2.1\Pizzaria.Backend.deps.json
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\bin\Debug\netcoreapp2.1\Pizzaria.Backend.runtimeconfig.json
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\bin\Debug\netcoreapp2.1\Pizzaria.Backend.runtimeconfig.dev.json
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\bin\Debug\netcoreapp2.1\Pizzaria.Backend.dll
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\bin\Debug\netcoreapp2.1\Pizzaria.Backend.pdb
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.csprojAssemblyReference.cache
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.csproj.CoreCompileInputs.cache
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.AssemblyInfoInputs.cache
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.AssemblyInfo.cs
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.dll
+C:\Users\51755101856\Desktop\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.pdb
