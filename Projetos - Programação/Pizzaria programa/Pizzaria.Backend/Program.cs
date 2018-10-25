@@ -6,7 +6,9 @@ namespace Pizzaria.Backend {
         static Usuario[] usuario = new Usuario[500]; // Declarando Array;
         static Produtos[] produto = new Produtos[300]; // Declarando Array;
         static UsuarioControl MetodoUser = new UsuarioControl (); //Declarando e Instanciando Objeto;
+        static ProdutoControl MetodoProd = new ProdutoControl (); //Declarando e Instanciando Objeto;
         static string opcao;
+        static int IdPL = 0, IdPS = 0;
         static int cUser = 0; // Contador da quantidade de usuarios cadastrados
         static int cProd = 0; // Contador da quantidade de produtos cadastrados
         static void Main (string[] args) {
@@ -49,9 +51,23 @@ namespace Pizzaria.Backend {
                                             }
                                         case "3":
                                             {
-                                                ExibirPrecoTotal ();
+                                                System.Console.WriteLine ($"Preço total dos produtos cadastrados: {MetodoProd.ExibirPrecoTotal(produto)}");
                                                 Pausa ();
 
+                                                break;
+                                            }
+                                        case "4":
+                                            {
+                                                int[] precos = MetodoProd.DiferençaPreco (produto);
+                                                System.Console.WriteLine ($"Produto de menor preço:\nId: {produto[precos[0]].Id}\nNome: {produto[precos[0]].Nome}\nPreço: {produto[precos[0]].Preco}\nDescrição: {produto[precos[0]].Descricao}\nCategoria: {produto[precos[0]].Categoria}\nData criada: {produto[precos[0]].DataCriacao}");
+                                                System.Console.WriteLine ("-------------------------------------------------");
+                                                System.Console.WriteLine ($"Produto de maior preço:\nId: {produto[precos[1]].Id}\nNome: {produto[precos[1]].Nome}\nPreço: {produto[precos[1]].Preco}\nDescrição: {produto[precos[1]].Descricao}\nCategoria: {produto[precos[1]].Categoria}\nData criada: {produto[precos[1]].DataCriacao}");
+                                                Pausa ();
+                                                break;
+                                            }
+                                        case "5":
+                                            {
+                                                AumentarPreco ();
                                                 break;
                                             }
                                         case "0":
@@ -61,7 +77,7 @@ namespace Pizzaria.Backend {
                                             }
                                         default:
                                             {
-                                                System.Console.WriteLine ("Insira uma opção válida!");
+                                                System.Console.WriteLine ("##### Opção invalida #####");
                                                 Pausa ();
 
                                                 break;
@@ -190,7 +206,8 @@ namespace Pizzaria.Backend {
                 if (item == null) {
                     break;
                 } else {
-                    System.Console.WriteLine ($"Id: {item.Id}\nNome: {item.Nome}\nEmail: {item.Email}\nData criada: {item.DataCriacao}");
+                    System.Console.WriteLine ($"\nId: {item.Id}\nNome: {item.Nome}\nEmail: {item.Email}\nData criada: {item.DataCriacao}");
+                    System.Console.WriteLine ("------------------------------------------");
                 }
             }
         }
@@ -206,6 +223,8 @@ namespace Pizzaria.Backend {
             1 - Cadastrar produto
             2 - Listar todos os produtos
             3 - Valor total dos produtos
+            4 - Produtos de maior e menor preço
+            5 - Aumentar Preço
             0 - sair
             ----------------------------");
         }
@@ -238,6 +257,7 @@ namespace Pizzaria.Backend {
             } while (categoria != "1" && categoria != "2");
 
             produto[cProd].Id = cProd + 1;
+            produto[cProd].DataCriacao = DateTime.Now;
             cProd++;
         }
         #endregion
@@ -251,25 +271,44 @@ namespace Pizzaria.Backend {
                 if (item == null) {
                     break;
                 } else {
-                    System.Console.WriteLine("------------------------------------------");
                     System.Console.WriteLine ($"\nId: {item.Id}\nNome: {item.Nome}\nDescrição: {item.Descricao}\nPreço: {item.Preco}\nCategoria: {item.Categoria}\nData criada: {item.DataCriacao}");
+                    System.Console.WriteLine ("------------------------------------------");
                 }
             }
         }
         #endregion
 
-        #region Exibir Preço Total (Produtos)
-        static void ExibirPrecoTotal () {
-            double soma = 0;
+        #region AumentarPreco
+        static void AumentarPreco () {
+
             foreach (Produtos item in produto) {
                 if (item == null) {
                     break;
                 } else {
-                    soma += item.Preco;
+                    System.Console.WriteLine ($"\nId: {item.Id}\nNome: {item.Nome}\nPreço: {item.Preco}");
+                    System.Console.WriteLine ("------------------------------------------");
                 }
             }
 
-            System.Console.WriteLine ($"Preço total dos produtos cadastrados: {soma.ToString("C")}");
+            int userID = 0;
+
+            do {
+                System.Console.WriteLine ("Insira o ID do produto que deseja aumentar o preço:");
+                userID = int.Parse (Console.ReadLine ());
+
+                if (userID < 0 || produto[userID - 1] == null) {
+                    System.Console.WriteLine ("Insira um índice válido.");
+                }
+
+            } while (userID < 0 && produto[userID - 1] == null);
+
+            System.Console.WriteLine ("Insira a quantidade que deseja aumentar:");
+            float valor = float.Parse (Console.ReadLine ());
+
+            produto[userID - 1].AumentarPreco (valor);
+
+            System.Console.WriteLine ("Preço aumentado com sucesso!");
+            Pausa ();
         }
         #endregion
 
@@ -279,5 +318,6 @@ namespace Pizzaria.Backend {
             Console.ReadKey ();
         }
         #endregion
+
     }
 }

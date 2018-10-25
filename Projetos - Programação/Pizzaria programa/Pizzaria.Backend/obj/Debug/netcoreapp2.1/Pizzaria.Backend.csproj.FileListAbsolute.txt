@@ -20,3 +20,14 @@ D:\Windows Libraries\Área de Trabalho\dev-de-sistemas-senai-de-informatica\Proj
 D:\Windows Libraries\Área de Trabalho\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.AssemblyInfo.cs
 D:\Windows Libraries\Área de Trabalho\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.dll
 D:\Windows Libraries\Área de Trabalho\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.pdb
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\bin\Debug\netcoreapp2.1\Pizzaria.Backend.deps.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\bin\Debug\netcoreapp2.1\Pizzaria.Backend.runtimeconfig.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\bin\Debug\netcoreapp2.1\Pizzaria.Backend.runtimeconfig.dev.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\bin\Debug\netcoreapp2.1\Pizzaria.Backend.dll
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\bin\Debug\netcoreapp2.1\Pizzaria.Backend.pdb
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.csprojAssemblyReference.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.csproj.CoreCompileInputs.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.AssemblyInfoInputs.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.AssemblyInfo.cs
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.dll
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Pizzaria programa\Pizzaria.Backend\obj\Debug\netcoreapp2.1\Pizzaria.Backend.pdb
