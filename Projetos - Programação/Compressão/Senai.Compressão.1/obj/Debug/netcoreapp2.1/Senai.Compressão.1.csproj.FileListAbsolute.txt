@@ -1,0 +1,11 @@
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\bin\Debug\netcoreapp2.1\Senai.Compressão.1.deps.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\bin\Debug\netcoreapp2.1\Senai.Compressão.1.runtimeconfig.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\bin\Debug\netcoreapp2.1\Senai.Compressão.1.runtimeconfig.dev.json
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\bin\Debug\netcoreapp2.1\Senai.Compressão.1.dll
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\bin\Debug\netcoreapp2.1\Senai.Compressão.1.pdb
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\obj\Debug\netcoreapp2.1\Senai.Compressão.1.csprojAssemblyReference.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\obj\Debug\netcoreapp2.1\Senai.Compressão.1.csproj.CoreCompileInputs.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\obj\Debug\netcoreapp2.1\Senai.Compressão.1.AssemblyInfoInputs.cache
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\obj\Debug\netcoreapp2.1\Senai.Compressão.1.AssemblyInfo.cs
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\obj\Debug\netcoreapp2.1\Senai.Compressão.1.dll
+C:\Users\33747821839\Documents\Git-Repositories\dev-de-sistemas-senai-de-informatica\Projetos - Programação\Compressão\Senai.Compressão.1\obj\Debug\netcoreapp2.1\Senai.Compressão.1.pdb
