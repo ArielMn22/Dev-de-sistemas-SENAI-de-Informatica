@@ -1,0 +1,41 @@
+
+#containerIndex {
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-around;
+
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.opcoes-links
+{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opcoes {
+    flex: 1;    
+}
+
+.opcoes a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.pizza-img-menu {
+    flex: 1;
+
+    justify-content: center;
+}
+
+.pizza-img-menu img {
+    height: 700px;
+}
+
