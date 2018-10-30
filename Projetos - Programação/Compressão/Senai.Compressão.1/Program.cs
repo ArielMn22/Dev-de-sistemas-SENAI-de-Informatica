@@ -1,12 +1,13 @@
 ﻿using System;
-using System.IO;
-using System.IO.Compression;
+using System.IO; // Namespace utilizada para utilização da Classe 'File'.
+using System.IO.Compression; // Utilizada para compactar e descompactar arquivos.
 
 namespace Senai.Compressão._1 {
     class Program {
         static void Main (string[] args) {
             string opcao;
 
+            // Realiza o loop até o usuário colocar a opção '0'
             do {
                 Console.Clear ();
 
@@ -27,18 +28,15 @@ namespace Senai.Compressão._1 {
                     case "1":
                         System.Console.WriteLine ("Informe o caminho/nome da pasta que deseja compactar:");
                         directoryName = Console.ReadLine ();
-                        //directoryName = Path.GetFullPath (directoryName);
-                        //directoryName += Path.DirectorySeparatorChar;
 
                         System.Console.WriteLine ("Informe o caminho/nome do arquivo após a compactação:");
                         fileDestino = Console.ReadLine ();
-                        //fileDestino = Path.GetFullPath (fileDestino);
 
                         if (!Directory.Exists (directoryName))
                         {
                             System.Console.WriteLine("Diretório alvo não encontrado...");
                         } else if (File.Exists (fileDestino)) {
-                            System.Console.WriteLine ("O arquivo já foi descompactado...");
+                            System.Console.WriteLine ("O arquivo já foi compactado...");
                         } else {
                             ZipFile.CreateFromDirectory (directoryName, fileDestino);
                         }
