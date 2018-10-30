@@ -9,6 +9,7 @@ namespace Senai.Compressão._1 {
 
             // Realiza o loop até o usuário colocar a opção '0'
             do {
+                // Limpa a tela
                 Console.Clear ();
 
                 System.Console.WriteLine ("========================================================");
@@ -19,60 +20,55 @@ namespace Senai.Compressão._1 {
                 System.Console.WriteLine ("0 - Sair");
 
                 System.Console.Write ("Insira uma opção: ");
-                opcao = Console.ReadLine ();
-
-                string directoryName = null;
-                string fileDestino = null;
+                opcao = Console.ReadLine (); // Lê a opção do usuário
 
                 switch (opcao) {
                     case "1":
                         System.Console.WriteLine ("Informe o caminho/nome da pasta que deseja compactar:");
-                        directoryName = Console.ReadLine ();
+                        string pastaParaCompactar = Console.ReadLine (); // Pasta que será compactada
 
-                        System.Console.WriteLine ("Informe o caminho/nome do arquivo após a compactação:");
-                        fileDestino = Console.ReadLine ();
+                        System.Console.WriteLine ("Informe o caminho/nome do arquivo .zip após a compactação:");
+                        string arquivoZipDestino = Console.ReadLine (); // O nome que o arquivo .zip terá depois de ser compactado
 
-                        if (!Directory.Exists (directoryName))
-                        {
-                            System.Console.WriteLine("Diretório alvo não encontrado...");
-                        } else if (File.Exists (fileDestino)) {
+                        // Caso a pasta que deseja compactar não exista mostre a mensagem de erro
+                        if (!Directory.Exists (pastaParaCompactar)) {
+                            System.Console.WriteLine ("Diretório alvo não encontrado...");
+                        } else if (File.Exists (arquivoZipDestino)) { // Caso o arquivo .zip exista mostre a mensagem de erro.
                             System.Console.WriteLine ("O arquivo já foi compactado...");
                         } else {
-                            ZipFile.CreateFromDirectory (directoryName, fileDestino);
+                            // Caso as duas condições forem falsas, o programa compacta a pasta...
+                            ZipFile.CreateFromDirectory (pastaParaCompactar, arquivoZipDestino);
                         }
 
-                        System.Console.WriteLine("\nAperte [QUALQUER] tecla para continuar...");
-                        Console.ReadKey();
-
+                        System.Console.WriteLine ("\nAperte [QUALQUER] tecla para continuar...");
+                        Console.ReadKey (); //Pausa o programa
                         break;
+
                     case "2":
                         System.Console.WriteLine ("Informe o caminho do arquivo .zip que deseja descompactar:");
-                        directoryName = Console.ReadLine ();
-                        //directoryName = Path.GetFullPath (directoryName);
+                        string arquivoZip = Console.ReadLine (); // Arquivo .zip que será descompactado
 
                         System.Console.WriteLine ("Informe o nome do diretório junto com seu caminho:");
-                        fileDestino = Console.ReadLine ();
-                        //fileDestino = Path.GetFullPath (fileDestino);
+                        string diretorioDestino = Console.ReadLine (); // Pasta que será criada para guardar os arquivos do .zip
 
-                        if (!File.Exists (directoryName))
-                        {
-                            System.Console.WriteLine("Diretório alvo não encontrado...");
-                        } else if (Directory.Exists (fileDestino)) {
+                        // Caso o arquivo que deverá ser descompactado não exista mostre a mensagem de erro...
+                        if (!File.Exists (arquivoZip)) {
+                            System.Console.WriteLine ("Diretório alvo não encontrado...");
+                        } else if (Directory.Exists (diretorioDestino)) { // Caso o diretório destino já exista mostre a mensagem de erro...
                             System.Console.WriteLine ("O arquivo já foi descompactado...");
                         } else {
-                            ZipFile.ExtractToDirectory (directoryName, fileDestino);
+                            // Caso as duas condições forem falsas, o arquivo será extraido.
+                            ZipFile.ExtractToDirectory (arquivoZip, diretorioDestino);
                         }
-                        
-                        System.Console.WriteLine("\nAperte [QUALQUER] tecla para continuar...");
-                        Console.ReadKey ();
 
+                        System.Console.WriteLine ("\nAperte [QUALQUER] tecla para continuar...");
+                        Console.ReadKey ();
                         break;
 
                     case "0":
-                        Console.Clear();
-                        
-                        System.Console.WriteLine("Tchau...");
+                        Console.Clear ();
 
+                        System.Console.WriteLine ("Tchau...");
                         break;
 
                     default:
