@@ -1,0 +1,4 @@
+﻿https://www.nuget.org/packages/Spire.Doc/ - Link para o nuget.
+Spire.doc é utilizado para a utilização de arquivos docx em programação.
+
+- Após utilizar 
