@@ -9,7 +9,7 @@ namespace Senai.Compressão.Simplificado
         {
             #region Compactar
 
-            string diretorioParaCompactar = @"bin";
+            string diretorioParaCompactar = @"PastaParaCompactar";
             string arquivoZipDestino = @"arquivo.zip";
 
             ZipFile.CreateFromDirectory(diretorioParaCompactar, arquivoZipDestino);
