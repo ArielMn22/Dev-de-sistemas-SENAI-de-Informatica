@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../../wwwroot/Transacao/Cadastrar.css">  
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #form1 {
+            flex-direction: column;
+        }
+        
+        main {
+            width: 100vw;
+            text-align: center;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+        </style>  
+    </head>
+    
+    <main>
+        <h1>Cadastrar Transações</h1>
+
+        @ViewBag.Mensagem
+
+        <form id="form1" class="flex-container" action="Transacao/Cadastrar" method="POST">
+
+        <label>
+            Despesa
+            <input type="radio" name="tipo" value="Despesa">
+            Receita
+            <input type="radio" name="tipo" value="Receita">
+        </label>
+
+        <label>
+            Descrição da transação
+            <textarea name="descricao"></textarea>
+        </label>
+
+        <label>
+            Valor da transação
+            <input type="number" name="valor">
+        </label>
+
+        <label>
+            Data da  transação
+            <input type="text" name="dataCriacao">
+        </label>
+
+        <button type="submit">Salvar</button>
+
+        </form>
+    </main>
+</html>
