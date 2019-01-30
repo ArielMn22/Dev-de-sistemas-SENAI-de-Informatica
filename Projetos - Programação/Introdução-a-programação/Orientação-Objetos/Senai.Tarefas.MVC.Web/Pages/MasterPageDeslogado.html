@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>TaskMn22</title>
+    <link href="/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/MasterPageDeslogado.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav id="top-bar">
+            <ul>
+                <li><a href="">Cadastrar Usuário</a></li>
+                <li><a href="">Logar</a></li>
+            </ul>
+        </nav>
+    </header>
+    @ViewBag.Mensagem
+    @RenderBody()
+
+    <main>
+        <form action="/Tarefa/Cadastrar" method="POST">
+            <label>
+                <h2>Insira a nome da Transação</h2>
+                <input class="inpt" placeholder="Insira o nome da transação" type="text" name="nome" required>
+            </label>
+
+            <label>
+                <h2>Insira a descrição da Transação</h2>
+                <input class="inpt" placeholder="Insira a descrição da transação" type="text" name="descricao">
+            </label>
+
+            <label>
+                <h2>Tipo</h2>
+                <label>
+                    Para Fazer
+                    <input type="radio" name="tipo" value="paraFazer">
+                </label>
+
+                <label>
+                    Fazendo
+                    <input type="radio" name="tipo" value="fazendo">
+                </label>
+
+                <label>
+                    Feito
+                    <input type="radio" name="tipo" value="feito">
+                </label>
+            </label>
+            <button class="btn" type="submit">Cadastrar Usuário</button>
+        </form>
+    </main>
+</body>
+
+</html>

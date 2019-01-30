@@ -1,0 +1,23 @@
+@ViewBag.Mensagem
+
+@{
+    Layout = "MasterPageDeslogado";
+}
+
+<form action="/Usuario/Login" method="POST">
+
+    <label>
+        E-mail
+        <input type="email" name="email"
+        required maxlength="80">
+    </label>
+
+    <label>
+        Senha
+        <input type="password" name="senha"
+        required maxlength="50">
+    </label>
+
+    <button type="submit">Entrar no sistema</button>
+
+</form>

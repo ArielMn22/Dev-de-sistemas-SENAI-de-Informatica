@@ -1,0 +1,27 @@
+@{
+    if (@ViewBag.Logado == "1")
+    {
+        Layout = "MasterPageLogado";
+    } else {
+        Layout = "MasterPageDeslogado";
+    }
+}
+
+
+<main>
+<h1 class="ma-top-g">Login</h1>
+
+<form action="/Usuario/Login" method="POST">
+    <label>
+        <input class="inpt" placeholder="Insira seu e-mail" type="email" name="email">
+    </label>
+
+    <label>
+        <input class="inpt" placeholder="Insira sua senha" type="password" name="senha">
+    </label>
+
+    <label>
+        <button class="btn" type="submit">Logar</button>
+    </label>
+</form>
+</main>

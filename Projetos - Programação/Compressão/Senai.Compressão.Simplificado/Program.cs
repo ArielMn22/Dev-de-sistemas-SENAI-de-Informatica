@@ -10,6 +10,7 @@ namespace Senai.Compressão.Simplificado
             #region Compactar
 
             string diretorioParaCompactar = @"PastaParaCompactar";
+            // É necessário utilizar '@' antes da string para que a barra seja entendida como o caminho do diretório.
             string arquivoZipDestino = @"arquivo.zip";
 
             ZipFile.CreateFromDirectory(diretorioParaCompactar, arquivoZipDestino);

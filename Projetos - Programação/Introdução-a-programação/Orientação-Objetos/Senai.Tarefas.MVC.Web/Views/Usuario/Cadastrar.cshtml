@@ -1,0 +1,50 @@
+@{
+
+    if (@ViewBag.Logado == "1")
+    {
+        Layout = "MasterPageLogado";
+    } else {
+        Layout = "MasterPageDeslogado";
+    }
+}
+
+        <main>
+            <h1 class="ma-top-g">Cadastrar Usuário</h1>
+            <section id="Formulario">
+                <form action="/Usuario/Cadastrar" method="POST">
+                <label>
+                    <h2>Insira seu nome</h2>
+                    <input class="inpt" placeholder="Insira seu nome" type="text" name="nome" required>
+                </label>
+
+                <label>
+                    <h2>Insira seu e-mail</h2>
+                    <input class="inpt" placeholder="Insira seu e-mail" type="email" name="email" required>
+                </label>
+
+                <label>
+                    <h2>Insira sua senha</h2>
+                    <input class="inpt" placeholder="Insira sua senha" type="password" name="senha" required>
+                </label>
+
+                <h2>Insira o tipo de usuário a ser cadastrado</h2>
+                <label>
+                    <label>
+                        <h2>Usuário Comum</h2>                    
+                        <input type="radio" name="tipo" value="Comum" checked>
+                    </label>
+                    
+                    <label>
+                        <h2>Usuário Administrador</h2>                    
+                        <input type="radio" name="tipo" value="Admin">
+                    </label>
+                </label>
+
+                <label>
+                    <button class="btn" type="submit">Cadastrar Usuário</button>
+                </label>
+                </form>
+            </section>
+        </main>
+
+</html>

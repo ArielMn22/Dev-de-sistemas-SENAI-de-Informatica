@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "f:\\Ariel\\Code-Repositories\\GitHub\\mycodes\\Senai_Financas_Web_Mvc_Tarde\\Senai.Financas.Mvc.Web.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  }
+}

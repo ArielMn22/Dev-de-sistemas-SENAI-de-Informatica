@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata';
+    outline: none;
+}
+
+main {
+    text-align: center;
+}
+
+#top-bar {
+    width: 100%;
+    background-color: black;
+    height: 56px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#top-bar ul {
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+#top-bar ul li {
+    list-style-type: none;
+}
+
+#top-bar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 19px;
+}
+
+#top-bar ul li a:hover {
+    background-color: #0066ff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form > * {
+    margin: 10px 0;
+}
+
+label {
+    text-align: center;
+}
+
+label > * {
+    margin: 5px 0;
+}
+
+.inpt {
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 200px;
+    text-indent: 8px;
+    transition: all 0.3s;
+}
+
+.inpt:focus {
+    border: 1px solid #0066ff;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #0066ff;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid orange;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 6px 2px #ccc;
+    transform: scale(1.05);
+}
+
+/* Tipografia */
+h2 {
+    font-size: 1rem;
+}
+
+/* Margens */
+.ma-top-g {
+    margin-top: 40px;
+}

@@ -1,0 +1,60 @@
+<html>
+        <head>
+            <style>
+                #formulario {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                form {
+                    width: 50%;
+                    display: flex;
+                }
+
+                * {
+                    outline: none;
+                }
+
+                input, textarea {
+                    padding: 10px;
+                    border-radius: 20px;
+                    border: 1px solid black;
+                }
+            </style>
+        </head>
+            <h1>Formulário de Cadastro de pintos</h1>
+            
+            <a href="/Usuario/Cadastro">Cadastrar</a>
+            <a href="/Usuario/Login">Logar</a>
+
+            @ViewBag.Mensagem
+
+            <section id="formulario">
+
+            <form action="/Transacao/Cadastrar" method="POST">
+                <label>
+                    Descricao
+                    <textarea type="text" name="descricao"></textarea>
+                </label>
+
+                <label>
+                    Valor
+                    <input type="number" name="valor">
+                </label>
+
+                <select>
+                    <option value="despesa">Despesa</option>
+                    <option value="receita">Receita</option>
+                </select>
+
+                <label>
+                    Data
+                    <input type="date" name="data">
+                </label>
+
+                <button type="submit">Salvar</button>
+            </form>
+            </section>
+
+</html>
